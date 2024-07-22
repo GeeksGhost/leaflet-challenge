@@ -1,0 +1,32 @@
+/* General body and map styles */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Styles for the legend */
+.info {
+  background: white;
+  padding: 6px 8px;
+  font: 14px Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+.info.legend i {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.info.legend {
+  line-height: 1.8;
+}
